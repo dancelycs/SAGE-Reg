@@ -1,0 +1,7 @@
+dataset,descriptor,baseline,evaluated_pairs,baseline_rr_percent,sagereg_rr_percent,sagereg_gain_points,sagereg_only_successes,baseline_only_successes,exact_two_sided_p
+3DLoMatch,FPFH,MAC,1781,34.31,38.52,4.21,111,36,4.32e-10
+3DMatch,FPFH,SC2-PCR,1623,79.98,81.70,1.73,55,27,2.64e-3
+3DMatch,FCGF,SC2-PCR,1623,90.08,91.87,1.79,44,15,2.04e-4
+KITTI,FPFH,MAC,555,92.97,92.07,-0.90,5,10,0.302
+KITTI,FCGF,SC2-PCR,555,93.69,96.04,2.34,14,1,9.77e-4
+ETH-TLS,FPFH,MAC,713,45.86,48.39,2.52,35,17,0.0175

@@ -1,0 +1,30 @@
+device: cuda
+max_correspondences: 2000
+regeneration_radii: [0.15, 0.10, 0.075]
+regeneration_neighbors: 8
+regeneration_iterations: 2
+estimator:
+  compatibility_sigma: 0.05
+  compatibility_threshold: 0.10
+  max_neighbors: 48
+  second_order_strength: 1.5
+  dual_channel_seeds: true
+  num_seeds: 96
+  seed_graph_distance: 2
+  seed_spatial_radius: 0.10
+  max_hops: 2
+  frontier_decay: 0.50
+  min_hypothesis_size: 6
+  posterior_threshold: 0.55
+  entropy_gain_threshold: 0.0015
+  inlier_threshold: 0.10
+  top_hypotheses: 20
+  refinement_iterations: 5
+  max_correspondences: 2000
+  coverage_volume_floor: 0.015
+  concentration_penalty_weight: 0.55
+  concentration_activation_fraction: 0.15
+  degeneracy_rank_floor: 1.10
+  degeneracy_penalty_weight: 0.50
+  rank_tiebreak_weight: 0.15
+  rank_tiebreak_cap: 2.50

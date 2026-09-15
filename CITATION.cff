@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite the accompanying manuscript and
+  identify the repository version used.
+title: >-
+  SAGE-Reg: Sampling-Aware Graph Expansion and Regeneration for Low-Overlap
+  Point Cloud Registration
+type: software
+version: 0.1.0
+authors:
+  - family-names: Yang
+    given-names: Jie
+  - family-names: Gai
+    given-names: Shaoyan
+  - family-names: Da
+    given-names: Feipeng
+repository-code: https://github.com/dancelycs/SAGE-Reg
+license: LicenseRef-Proprietary

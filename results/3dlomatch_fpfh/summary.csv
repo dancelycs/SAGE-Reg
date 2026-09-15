@@ -1,0 +1,2 @@
+method,registration_recall,median_rotation_error_deg,median_translation_error,mean_runtime_seconds,evaluated_pairs
+sagereg_regen,0.38517686692869174,40.31651823145141,0.9813242705325512,0.2523799279726154,1781
